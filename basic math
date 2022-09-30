@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class main{
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("please enter an integer >> ");
+        int x = scanner.nextInt();
+        System.out.println("please enter another integer >> ");
+        int y = scanner.nextInt();
+        System.out.printf("%d + %d is %d \n" , x,y, x+y);
+        System.out.printf("%d - %d is %d \n" , x,y, x-y);
+        System.out.printf("the average of %d and %d is %.2f" , x,y,(float)(x+y)/2);
+    }
+}
