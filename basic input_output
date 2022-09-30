@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class main{
+    
+    public static void main(String[] args) {
+        System.out.println("Please enter an integer >> ");
+        Scanner scanner = new Scanner(System.in); 
+        int int1 = scanner.nextInt();
+        System.out.println("Please enter a byte integer >> ");
+        byte byte1 = scanner.nextByte();
+        System.out.println("Please eneter a short integer >> ");
+        short short1 = scanner.nextShort();
+        System.out.println("Please eneter a long integer >> ");
+        long long1 = scanner.nextLong();
+        nextinteger:scanner.nextLine();
+        System.out.println("Please eneter your name >> ");
+        String name = scanner.nextLine();
+        System.out.println("Thank you    " + name );
+        System.out.println("the int is   " + int1 );
+        System.out.println("the byte is  " + byte1 );
+        System.out.println("the short is " + short1 );
+        System.out.println("the long is  " + long1 );
+    }
+}
