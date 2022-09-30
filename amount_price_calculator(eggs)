@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter the amount of eggs >> ");
+        int nEggs=scanner.nextInt();
+        System.out.printf("price of %d eggs = %.2f $", nEggs,(((int)(nEggs/12))*3.25)+(nEggs-(((int)(nEggs/12))*12))*0.45);
+}
+    }
